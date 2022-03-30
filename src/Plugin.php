@@ -1,14 +1,13 @@
 <?php
-namespace noahjahn\craftdatabasereplace;
+namespace fusionary\craftdatabasereplace;
 
 use craft\events\RegisterComponentTypesEvent;
 use craft\services\Utilities;
 use yii\base\Event;
-use noahjahn\craftdatabasereplace\utilities\DatabaseReplace;
 
 class Plugin extends \craft\base\Plugin
 {
-    public $packageName = 'Database Replace';
+    public $packageName = 'Fusionary Database Replace';
 
     public function init()
     {
